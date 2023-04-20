@@ -1,0 +1,29 @@
+
+:root {
+  --bkg-dark: #111;
+  --bkg-light: #ddd;
+  --color-dark: #eee;
+  --color-light: #000;
+}
+
+body {
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.light-theme {
+  background-color: var(--bkg-light) !important;
+  color: var(--color-light) !important;
+}
+
+.dark-theme {
+  background-color: var(--bkg-dark);
+  color: var(--color-dark);
+}
+
+#canvas {
+  border:1px solid #fff5;
+}
